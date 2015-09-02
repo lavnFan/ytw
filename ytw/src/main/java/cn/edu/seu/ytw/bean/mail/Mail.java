@@ -1,19 +1,7 @@
 package cn.edu.seu.ytw.bean.mail;
 
-<<<<<<< HEAD
 import java.util.Date;
-
-public class Mail {
-
-	private int id;
-	private Date sendTime;
-	private String title;
-	private String content;
-	
-=======
-
 import java.sql.Time;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -30,7 +18,6 @@ public class Mail {
 	private String title; // 信息标题
 	private String content; // 信息内容
 	private boolean isRead; // 是否已读
-
 
 	@Id
 	public int getId() {
@@ -78,5 +65,4 @@ public class Mail {
 	public void setIsRead(boolean isRead) {
 		this.isRead = isRead;
 	}
->>>>>>> d5bdd0885d441c7fdec0665cb7e74fe90ce89958
 }

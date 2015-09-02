@@ -1,6 +1,6 @@
 package cn.edu.seu.ytw.service.impl;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import javax.annotation.Resource;
 
@@ -10,11 +10,7 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.AbstractJUnit4SpringContextTests;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-<<<<<<< HEAD
 import cn.edu.seu.ytw.bean.user.User;
-=======
-import cn.edu.seu.ytw.bean.User;
->>>>>>> d5bdd0885d441c7fdec0665cb7e74fe90ce89958
 import cn.edu.seu.ytw.exception.LoginException;
 import cn.edu.seu.ytw.exception.RegisterException;
 import cn.edu.seu.ytw.service.UserService;

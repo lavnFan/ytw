@@ -1,5 +1,4 @@
 package cn.edu.seu.ytw.bean.system;
-import java.util.*;
 
 /**
  * 
