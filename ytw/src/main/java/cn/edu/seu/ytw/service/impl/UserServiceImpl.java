@@ -8,7 +8,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+<<<<<<< HEAD
 import cn.edu.seu.ytw.bean.user.User;
+=======
+import cn.edu.seu.ytw.bean.User;
+>>>>>>> d5bdd0885d441c7fdec0665cb7e74fe90ce89958
 import cn.edu.seu.ytw.dao.UserDAO;
 import cn.edu.seu.ytw.exception.LoginException;
 import cn.edu.seu.ytw.exception.RegisterException;
